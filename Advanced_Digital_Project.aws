@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+generic_multiplier=.\Generic_Multiplier\Generic_Multiplier.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+generic_multiplier=1

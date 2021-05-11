@@ -1,0 +1,25 @@
+9
+~E 1 "../src/Generic_Multiplier_System.vhd" 9 And2
+~A 1 "../src/And2.vhd" 15 And2
+~E 1 "../src/Generic_Multiplier_System.vhd" 169 Generic_Multiplier
+~A 1 "../src/Generic_Multiplier_System.vhd" 216 Structural_Generic_Multiplier_Algorithm_NO_1
+~A 1 "../src/Generic_Multiplier_System.vhd" 273 Structural_Generic_Multiplier_Algorithm_NO_2
+~E 1 "../src/Generic_Multiplier_System.vhd" 138 MUX2X1
+~A 1 "../src/Generic_Multiplier_System.vhd" 149 MUX2X1
+~E 1 "../src/Generic_Multiplier_System.vhd" 98 n_bit_adder
+~A 1 "../src/Generic_Multiplier_System.vhd" 111 structural_N_Bit_Adder
+~E 1 "../src/Generic_Multiplier_System.vhd" 68 One_Bit_Adder
+~A 1 "../src/Generic_Multiplier_System.vhd" 77 structural_One_Bit_Adder
+~E 1 "../src/Generic_Multiplier_System.vhd" 28 Or2
+~A 1 "../src/Generic_Multiplier_System.vhd" 34 Or2
+~E 1 "../src/Generic_Multiplier_System.vhd" 306 result_analyzer
+~A 1 "../src/Generic_Multiplier_System.vhd" 344 result_analyzer
+~E 1 "../src/Generic_Multiplier_System.vhd" 167 special_right_shift
+~A 1 "../src/Generic_Multiplier_System.vhd" 175 special_right_shift
+~E 1 "../src/Generic_Multiplier_System.vhd" 373 test_bench
+~A 1 "../src/Generic_Multiplier_System.vhd" 408 test_bench_1
+~A 1 "../src/Generic_Multiplier_System.vhd" 432 test_bench_2
+~E 1 "../src/Generic_Multiplier_System.vhd" 334 test_generator
+~A 1 "../src/Generic_Multiplier_System.vhd" 379 test_generator
+~E 1 "../src/Generic_Multiplier_System.vhd" 48 Xor2
+~A 1 "../src/Generic_Multiplier_System.vhd" 54 Xor2

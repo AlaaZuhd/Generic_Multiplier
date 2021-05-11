@@ -1,0 +1,9 @@
+.\src\Generic_Multiplier_System.vhd
+.\src\And2.vhd
+.\src\Or2.vhd
+.\src\XOR2.vhd
+.\src\1_Bit_Adder.vhd
+.\src\n_Bit_Adder.vhd
+.\src\2X1MUX.vhd
+.\src\Special_Right_Shift.vhd
+.\src\Generic_Multiplier.vhd

@@ -1,0 +1,44 @@
+Active-HDL 11.1.262.7351 2021-05-11 23:14:40
+
+Elaboration top modules:
+Architecture                  test_bench_1(test_bench)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Entity              | Architecture                                 | Library            | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------------------
+test_bench          | test_bench_1                                 | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+test_generator      | test_generator                               | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+Generic_Multiplier  | Structural_Generic_Multiplier_Algorithm_NO_1 | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+result_analyzer     | result_analyzer                              | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+special_right_shift | special_right_shift                          | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+And2                | And2                                         | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+n_bit_adder         | structural_N_Bit_Adder                       | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+One_Bit_Adder       | structural_One_Bit_Adder                     | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+Xor2                | Xor2                                         | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+Or2                 | Or2                                          | generic_multiplier |      | 11.1.262.7351 (Windows) | -O3
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                                       | Library            | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------------------
+standard                                                           | std                |      |                         | <unavailable>
+TEXTIO                                                             | std                |      |                         | <unavailable>
+std_logic_1164                                                     | ieee               |      |                         | <unavailable>
+std_logic_arith                                                    | ieee               |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED                                                 | ieee               |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Library                                                            | Comment
+-----------------------------------------------------------------------------------------------------------------------------------------------
+generic_multiplier                                                 | None
+ieee                                                               | Standard IEEE packages library
+std                                                                | Standard VHDL library
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+test_bench test_bench test_bench_1
+
+
+The performance of simulation is reduced. Version Student Edition

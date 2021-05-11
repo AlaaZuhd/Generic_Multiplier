@@ -1,0 +1,44 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Generic_Multiplier
+[Library]
+Generic_Multiplier=.\Generic_Multiplier\Generic_Multiplier.lib
+[$LibMap$]
+Generic_Multiplier=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Generic_Multiplier_System.vhd=-1
+/And2.vhd=-1
+/Or2.vhd=-1
+/XOR2.vhd=-1
+/1_Bit_Adder.vhd=-1
+/n_Bit_Adder.vhd=-1
+/2X1MUX.vhd=-1
+/Special_Right_Shift.vhd=-1
+/Generic_Multiplier.vhd=-1
+[Files.Data]
+.\src\Generic_Multiplier_System.vhd=VHDL Source Code
+.\src\And2.vhd=VHDL Source Code
+.\src\Or2.vhd=VHDL Source Code
+.\src\XOR2.vhd=VHDL Source Code
+.\src\1_Bit_Adder.vhd=VHDL Source Code
+.\src\n_Bit_Adder.vhd=VHDL Source Code
+.\src\2X1MUX.vhd=VHDL Source Code
+.\src\Special_Right_Shift.vhd=VHDL Source Code
+.\src\Generic_Multiplier.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=test_bench|test_bench_1|0 
+ShowHide=ShowTopLevel
+Selected=

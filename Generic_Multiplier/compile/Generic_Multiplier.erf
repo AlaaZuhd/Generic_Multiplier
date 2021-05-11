@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/And2.vhd" 
+MESSAGE "Compile Entity "And2"" 
+MESSAGE "Compile Architecture "And2" of Entity "And2"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

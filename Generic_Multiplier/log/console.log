@@ -1,0 +1,486 @@
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/Generic_Multiplier_System.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/Generic_Multiplier_System.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+test_bench test_bench test_bench_1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7238 kB (elbread=1282 elab2=5813 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location c:\ActiveHDL_Designs\Advanced_Digital_Project\Generic_Multiplier\src\wave.asdb
+#  9:57 PM, Tuesday, May 11, 2021
+#  Simulation has been initialized
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/wave.asdb'.
+run @20580ns
+# KERNEL: stopped at time: 20580 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/Generic_Multiplier_System.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim -O5 +access +r +m+test_bench test_bench test_bench_2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7246 kB (elbread=1282 elab2=5820 kernel=143 sdf=0)
+# KERNEL: ASDB file was created in location c:\ActiveHDL_Designs\Advanced_Digital_Project\Generic_Multiplier\src\wave.asdb
+#  9:58 PM, Tuesday, May 11, 2021
+#  Simulation has been initialized
+# 6 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/wave.asdb'.
+run @20480ns
+# KERNEL: stopped at time: 20480 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/Generic_Multiplier_System.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+asim -O5 +access +r +m+test_bench test_bench test_bench_2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/Generic_Multiplier_System.vhd $dsn/src/Generic_Multiplier_System.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7246 kB (elbread=1282 elab2=5820 kernel=143 sdf=0)
+# KERNEL: ASDB file was created in location c:\ActiveHDL_Designs\Advanced_Digital_Project\Generic_Multiplier\src\wave.asdb
+#  10:00 PM, Tuesday, May 11, 2021
+#  Simulation has been initialized
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/wave.asdb'.
+run @20480ns
+# KERNEL: stopped at time: 20480 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/Generic_Multiplier_System.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+test_bench test_bench test_bench_1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7239 kB (elbread=1282 elab2=5814 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location c:\ActiveHDL_Designs\Advanced_Digital_Project\Generic_Multiplier\src\wave.asdb
+#  10:03 PM, Tuesday, May 11, 2021
+#  Simulation has been initialized
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/wave.asdb'.
+run @12695ns
+# EXECUTION:: WARNING: Multiplier output is incorrect
+# EXECUTION:: Time: 12665 ns,  Iteration: 0,  Instance: /test_bench/RA,  Process: line__346.
+# EXECUTION:: WARNING: Multiplier output is incorrect
+# EXECUTION:: Time: 12675 ns,  Iteration: 0,  Instance: /test_bench/RA,  Process: line__346.
+# EXECUTION:: WARNING: Multiplier output is incorrect
+# EXECUTION:: Time: 12685 ns,  Iteration: 0,  Instance: /test_bench/RA,  Process: line__346.
+# EXECUTION:: WARNING: Multiplier output is incorrect
+# EXECUTION:: Time: 12695 ns,  Iteration: 0,  Instance: /test_bench/RA,  Process: line__346.
+# KERNEL: stopped at time: 12695 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+test_bench test_bench test_bench_2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7247 kB (elbread=1282 elab2=5821 kernel=143 sdf=0)
+# KERNEL: ASDB file was created in location c:\ActiveHDL_Designs\Advanced_Digital_Project\Generic_Multiplier\src\wave.asdb
+#  10:05 PM, Tuesday, May 11, 2021
+#  Simulation has been initialized
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/wave.asdb'.
+run @1306ns
+# EXECUTION:: WARNING: Multiplier output is incorrect
+# EXECUTION:: Time: 1295 ns,  Iteration: 0,  Instance: /test_bench/RA,  Process: line__346.
+# EXECUTION:: WARNING: Multiplier output is incorrect
+# EXECUTION:: Time: 1305 ns,  Iteration: 0,  Instance: /test_bench/RA,  Process: line__346.
+# KERNEL: stopped at time: 1306 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/Generic_Multiplier_System.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/Generic_Multiplier_System.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile Entity "Or2"
+# Compile Architecture "Or2" of Entity "Or2"
+# Compile Entity "Xor2"
+# Compile Architecture "Xor2" of Entity "Xor2"
+# Compile Entity "One_Bit_Adder"
+# Compile Architecture "structural_One_Bit_Adder" of Entity "One_Bit_Adder"
+# Compile Entity "n_bit_adder"
+# Compile Architecture "structural_N_Bit_Adder" of Entity "N_Bit_Adder"
+# Compile Entity "MUX2X1"
+# Compile Architecture "MUX2X1" of Entity "MUX2X1"
+# Compile Entity "special_right_shift"
+# Compile Architecture "special_right_shift" of Entity "special_right_shift"
+# Compile Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_1" of Entity "Generic_Multiplier"
+# Compile Architecture "Structural_Generic_Multiplier_Algorithm_NO_2" of Entity "Generic_Multiplier"
+# Compile Entity "result_analyzer"
+# Compile Architecture "result_analyzer" of Entity "result_analyzer"
+# Compile Entity "test_generator"
+# Compile Architecture "test_generator" of Entity "test_generator"
+# Compile Entity "test_bench"
+# Compile Architecture "test_bench_1" of Entity "test_bench"
+# Compile Architecture "test_bench_2" of Entity "test_bench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+test_bench test_bench test_bench_1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7235 kB (elbread=1282 elab2=5812 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location c:\ActiveHDL_Designs\Advanced_Digital_Project\Generic_Multiplier\src\wave.asdb
+#  10:45 PM, Tuesday, May 11, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/test_bench/clock' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/test_bench/TestIn1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/test_bench/TestIn2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/test_bench/ExpectedResult' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/test_bench/ActuallResult' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/wave.asdb'.
+run @122880ns
+# KERNEL: stopped at time: 122880 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Generic_Multiplier -2002  $dsn/src/And2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/ActiveHDL_Designs/Advanced_Digital_Project/Generic_Multiplier/src/And2.vhd
+# Compile Entity "And2"
+# Compile Architecture "And2" of Entity "And2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+test_bench test_bench test_bench_1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7235 kB (elbread=1282 elab2=5812 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location c:\ActiveHDL_Designs\Advanced_Digital_Project\Generic_Multiplier\src\wave.asdb
+#  11:14 PM, Tuesday, May 11, 2021
+#  Simulation has been initialized
