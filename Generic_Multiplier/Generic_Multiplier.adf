@@ -39,6 +39,6 @@ FAMILY=
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=test_bench|test_bench_1|0 
+HierarchyInformation=test_bench|test_bench_1|0     
 ShowHide=ShowTopLevel
 Selected=
